@@ -1628,7 +1628,7 @@ class _SuggestionsBox {
       }
     }
 
-    if (maxHeight < 0) maxHeight = 0;
+    if (maxHeight < 0) maxHeight = minOverlaySpace;
   }
 
   double _calculateMaxHeight(
